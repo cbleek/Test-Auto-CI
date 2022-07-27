@@ -8,8 +8,8 @@ if [ ! -z "$VERSION" ]; then
   auto changelog
 
   ## Publish Package
-  yarn version $VERSION -m "Bump version to: %s [skip ci]"
-  yarn publish
+  yarn npm version $VERSION -m "Bump version to: %s [skip ci]"
+  yarn npm publish
 
   ## Create GitHub Release
   git push --follow-tags --set-upstream origin $branch

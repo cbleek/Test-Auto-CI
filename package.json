@@ -3,7 +3,8 @@
     "release": "./scripts/release.sh"
   },
   "devDependencies": {
-    "auto": "^10.37.4"
+    "auto": "^10.37.4",
+    "npm": "^8.15.0"
   },
   "repository": "cbleek/Test-Auto-Ci",
   "author": "Carsten Bleek <bleek@cross-solution.de>",
