@@ -4,5 +4,12 @@
   },
   "devDependencies": {
     "auto": "^10.37.4"
+  },
+  "repository": "cbleek/Test-Auto-Ci",
+  "author": "Carsten Bleek <bleek@cross-solution.de>",
+  "auto": {
+    "plugins": [
+      "npm"
+    ]
   }
 }
