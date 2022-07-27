@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "release": "./scripts/release.sh"
+  },
+  "devDependencies": {
+    "auto": "^10.37.4"
+  }
+}
